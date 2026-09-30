@@ -1,3 +1,7 @@
 site_name: TLfloress Documentación
 theme:
   name: readthedocs
+
+nav:
+  - Inicio: index.md
+  - Prueba de Imagen: prueba.md
