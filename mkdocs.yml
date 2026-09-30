@@ -5,3 +5,4 @@ theme:
 nav:
   - Inicio: index.md
   - Prueba de Imagen: prueba.md
+  - Análisis Táctico: estrategia.md
