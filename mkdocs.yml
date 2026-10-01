@@ -2,6 +2,10 @@ site_name: TLfloress Documentación
 theme:
   name: readthedocs
 
+plugins:
+  - search
+  - print-site  # Añade esta línea
+
 nav:
   - Inicio: index.md
   - Prueba de Imagen:
