@@ -1,11 +1,16 @@
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
 version: 2
 
-# Define el sistema operativo y herramientas
 build:
   os: "ubuntu-22.04"
   tools:
-    python: "3.13"
+    python: "3.11"
 
-# Define el formato y dónde están los archivos (ejemplo usando MkDocs)
 mkdocs:
   configuration: mkdocs.yml
+
+python:
+  install:
+    - requirements: docs/requirements.txt
