@@ -4,10 +4,10 @@ theme:
 
 plugins:
   - search
-  - print-site  # Añade esta línea
+  - print-site
 
 nav:
   - Inicio: index.md
   - Prueba de Imagen:
       - Vista General: prueba.md
-      - Análisis Táctico: pruebas/estrategia.md
+      - Análisis Táctico: estrategia.md    # ← quitamos "pruebas/"
