@@ -1,6 +1,8 @@
 site_name: TLfloress Documentación
+
 theme:
   name: readthedocs
+  custom_dir: overrides
 
 plugins:
   - search
@@ -10,4 +12,8 @@ nav:
   - Inicio: index.md
   - Prueba de Imagen:
       - Vista General: prueba.md
-      - Análisis Táctico: estrategia.md    # ← quitamos "pruebas/"
+      - Análisis Táctico: estrategia.md
+
+markdown_extensions:
+  - toc:
+      permalink: false
