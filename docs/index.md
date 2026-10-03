@@ -6,4 +6,4 @@ Este es el sitio de pruebas oficial alojado en **Read the Docs**.
 * **`app_flores.py`**: Script principal de la aplicación.
 * **`requirements.txt`**: Dependencias y librerías del proyecto.
 
-¡La documentación está sincronizada y funcionando correctamente!
+¡La documentación está sincronizada y funcionando correctamente!  
