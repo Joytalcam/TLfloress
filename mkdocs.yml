@@ -2,7 +2,6 @@ site_name: TLfloress Documentación
 
 theme:
   name: readthedocs
-  custom_dir: overrides
 
 plugins:
   - search
